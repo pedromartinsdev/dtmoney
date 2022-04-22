@@ -18,6 +18,14 @@ createServer({
           category: 'DEV',
           amount: 6000,
           createdAt: new Date('2021-02-12 09:00:00'),
+        },
+        {
+          id: 2,
+          title: 'Aluguel',
+          type: 'withdraw',
+          category: 'Casa',
+          amount: 900,
+          createdAt: new Date('2021-02-12 09:00:00'),
         }
       ]
     })
